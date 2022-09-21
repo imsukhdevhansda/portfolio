@@ -1,9 +1,10 @@
 import React from "react";
-import { Container, Row, Col, Button} from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import resume from "./sukhdev.pdf";
 
 function Home() {
   return (
@@ -39,19 +40,13 @@ function Home() {
               />
             </Col>
           </Row>
-
         </Container>
       </Container>
 
-      <a
-        href="https://drive.google.com/file/d/1w0Gc9pTrgpZwUssYLrTBu7AW3Mn1WLOl/view?usp=sharing"
-        target="_blank"
-        download="resume.pdf"
-        style={{marginLeft:"10%"}}
-      >
+      <a style={{ marginLeft: "10%" }} href={resume} download="Sukhdev_Hansda_Resume">
         <Button
           className="fork-btn-inner"
-          style={{ fontSize: "1.2em",borderRadius:"10px"}}
+          style={{ fontSize: "1.2em", borderRadius: "10px" }}
         >
           Get Resume
         </Button>
