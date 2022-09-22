@@ -34,13 +34,13 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        {/* <Navbar.Brand href="/portfolio" className="d-flex">
+        <Navbar.Brand href="/" className="d-flex">
           <h2 style={{ color: "#8230c6", fontWeight: "bolder" }}>SUKHDEV</h2>
-        </Navbar.Brand> */}
+        </Navbar.Brand>
 
-        <Nav.Link as={Link} to="/">
+        {/* <Nav.Link as={Link} to="/">
           <h2 style={{ color: "#8230c6", fontWeight: "bolder" }}>SUKHDEV</h2>
-        </Nav.Link>
+        </Nav.Link> */}
 
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
