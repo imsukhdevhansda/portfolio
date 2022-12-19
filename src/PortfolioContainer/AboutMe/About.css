@@ -1,0 +1,164 @@
+.about-container{
+    padding: 60px 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdf9fa;
+}
+
+.about-header{
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.about-header h3{
+    font-size: 40px;
+    font-weight: 800;
+}
+.about-header p{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.header-underline{
+    height: 3px;
+    width: 200px;
+    background-color: rgb(102, 13, 13);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-underline1{
+    height: 9px;
+    width: 40px;
+    background-color: rgb(255, 7, 7);
+    position: absolute;
+    border-radius: 5px;
+}
+
+.about-content-box{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aboutCard{
+    height: 600px;
+    width: 80%;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: center;
+}
+.profilePic{
+    width: 48%;
+    overflow: hidden;
+    background-color: #fff;
+}
+.profilePic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-content{
+    width: 52%;
+    padding: 40px 40px 40px 30px;
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    word-spacing: 5px;
+    line-height: 2;
+}
+.profile-content h4{
+    margin-top: 40px;
+}
+.keyHighlights{
+    list-style-type: "🔴 ";
+}
+
+.resumeBtn{
+    margin-top: 30px;
+}
+
+.resumeButton2 {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid green;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .resumeButton2:hover {
+    background-color: #23c483;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+  
+  .resumeButton2:active {
+    transform: translateY(-1px);
+  }
+
+ 
+
+
+
+@media screen and (max-width: 910px){
+    .profilePic{
+        display: none;
+    }
+    .profile-content{
+        width: 100%;
+        background-color: #fdf9fa;
+        text-align: justify;
+        word-spacing: 5px;
+        line-height: 2;
+    }
+}
+
+@media screen and (max-width: 810px){
+    .about-content-box{
+        display: flex;
+        justify-content: center;
+    }
+    .aboutCard{
+        margin-top: 40px;
+        height: fit-content;
+        width: 100%;
+        box-shadow: none;
+        
+    }
+    .profile-content{
+        width: 100%;
+    }
+    .profile-content .profilesummary{
+        padding: 0 10px;
+    }
+    .profile-content h3{
+        margin-top: 40px;
+        padding: 0 10px;
+    }
+    .keyHighlights{
+        list-style-type: "🔴 ";
+    }
+    
+    .resumeBtn{
+        margin-top: 30px;
+    }
+    
+}
+

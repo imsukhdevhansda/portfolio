@@ -1,0 +1,17 @@
+.home-container{
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+    background: rgb(34,120,219);
+    background: linear-gradient(84deg, rgba(34,120,219,1) 0%, rgba(20,3,56,1) 100%);
+}
+
+@media screen and (max-width: 810px){
+    .home-container{
+        padding-top: 0px;
+        background: rgb(34,120,219);
+        background: linear-gradient(180deg, rgba(34,120,219,1) 0%, rgba(20,3,56,1) 100%);
+    }
+}

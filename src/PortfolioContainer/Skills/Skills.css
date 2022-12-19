@@ -1,0 +1,174 @@
+.skills-container{
+    padding: 60px 0;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9fafd;
+}
+
+.skills-header{
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.skills-header h3{
+    font-size: 40px;
+    font-weight: 800;
+}
+.skills-header p{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+}
+
+.header-underline{
+    height: 3px;
+    width: 200px;
+    background-color: rgb(102, 13, 13);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-underline1{
+    height: 9px;
+    width: 40px;
+    background-color: rgb(255, 7, 7);
+    position: absolute;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* content part */
+
+
+.skillsDetails{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxContainer{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    /* margin-bottom: 50px; */
+}
+
+.skillBox{
+    box-sizing: border-box;
+    height: 250px;
+    width: 350px;
+    border: 1px solid #e9ecef;
+    border-radius: 7px;
+    padding-bottom: 10px;
+    transition: .15s ease-out;
+
+}
+
+.sillIcon,.skillTitle,.skillInfo{
+    text-align: center;
+    
+}
+.sillIcon{
+    margin-top: 30px;
+    font-size: 40px;
+}
+.skillTitle{
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: 500;
+}
+.skillInfo{
+    margin-top: 20px;
+    color: #b5becb;
+    font-weight: 500;
+}
+
+.skillBox:hover{
+    background-color: #fff;
+    transform: scale(1.001);
+    margin-top: -10px;
+    transition: .15s ease-in;
+    cursor: pointer;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+
+ @media screen and (max-width: 1100px){
+    .skillBox{
+        width: 300px;
+        
+    }
+}
+ @media screen and (max-width: 950px){
+     .boxContainer{
+        grid-template-columns: auto auto;
+     }
+
+     .skillBox{
+         width: 300px;
+         
+     }
+ }
+
+ @media screen and (max-width: 600px){
+    .boxContainer{
+        grid-template-columns: auto;
+    }
+}
+/* .node{
+    background-image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1280px-Node.js_logo.svg.png";
+} */
+img{
+    margin-top: 8px;
+    font-size: 40px;
+    width:50px
+}
+
+
+
+
+
+
+.calender{
+    /* border: 1px solid red;  */
+    display: flex;
+    padding: 10px;
+   
+}
+.calender_heading{
+   padding-top: 80px;
+    /* font-size: 26px; */
+    /* border: 1px solid red; */
+    margin: auto;
+    color:black;
+    /* width: 15%; */
+    display: flex;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px){
+    .calender_heading{
+        font-size: 24px;
+        color:black;
+        /* width: 30%; */
+
+    }
+}
+
+ @media screen and (max-width: 340px){
+    .calender_heading{
+        font-size: 20px;
+        color:black;
+        /* width: 40%; */
+    }
+}

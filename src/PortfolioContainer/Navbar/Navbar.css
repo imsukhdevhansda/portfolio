@@ -1,0 +1,109 @@
+
+
+
+/* @media screen and (max-width: 500px){
+    .navbar-headers{
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        justify-content: space-between;
+        max-height: 50px;
+        line-height: 50px;
+        width:100%;
+        top:0px;
+        position:fixed;
+        z-index: 1000;
+    }
+    .nav-menu-sec{
+        margin-right: 30px;
+    }
+    .nav-logo a{
+        font-size: 30px;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .navbar-toggler-button{
+        display: block;
+        color: #fff;
+        padding-top: 5px;
+    }
+    .stickyy{
+        background: rgb(34,120,219);
+    }
+}    */
+
+
+
+
+.navMenuBar{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+.navMenuBar .navMenuLogo{
+    font-size: 25px;
+}
+.navMenuLogo > a{
+    cursor: pointer;
+}
+.navMenuBar .toggleMenuButton{
+    font-size: 25px;
+}
+
+.navMenuContainer{
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.stickyy{
+    background: rgb(34,120,219);
+    background: linear-gradient(90deg, rgba(34,120,219,0.95) 0%, rgba(20,3,56,1) 100%);
+}
+
+#navMenuCollapsibleMenu{
+    padding: 0 10px;
+    border-top: 1px solid #fff;
+    background: rgb(34,120,219);
+}
+.InActiveNavMenu{
+    display: none;
+}
+.activeNavMenu{
+    display: block;
+}
+.navMenuCollapsibleArea{
+    display: flex;
+    justify-content: space-between;
+}
+.navMenuCollapsibleArea a{
+    font-size: 13px;
+    padding: 10px;
+    color: rgb(246, 243, 243);
+    cursor: pointer;
+}
+.navMenuBarMain{
+    display: flex;
+    align-items: center;
+}
+.navMenuBarMain a{
+    margin: 0px 20px;
+    cursor: pointer;
+}
+.toggleMenuButton{
+    display: none;
+}
+@media screen and (max-width: 500px){
+    .navMenuBarMain{
+        display: none;
+    }
+    .toggleMenuButton{
+        display: block;
+    }
+    .stickyy{
+        background: rgba(20,3,56,1)
+    }
+}  

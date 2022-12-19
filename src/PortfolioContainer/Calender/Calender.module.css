@@ -1,0 +1,36 @@
+
+
+
+.calender{
+    /* border: 1px solid red;  */
+    display: flex;
+    padding: 10px;
+   
+}
+.calender_heading{
+   padding-top: 80px;
+    /* font-size: 26px; */
+    /* border: 1px solid red; */
+    margin: auto;
+    color: #e9ecef;
+    /* width: 15%; */
+    display: flex;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px){
+    .calender_heading{
+        font-size: 24px;
+        color: #ffffff;
+        /* width: 30%; */
+
+    }
+}
+
+ @media screen and (max-width: 340px){
+    .calender_heading{
+        font-size: 20px;
+        color: #ffffff;
+        /* width: 40%; */
+    }
+}
